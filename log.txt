@@ -1,0 +1,159 @@
+Testing BinarySearchTree...
+Testing minimum: Succeeded
+Testing maximum: Succeeded
+Testing Search for non-existent object returns null: Succeeded
+Testing Search for existing object: Succeeded
+Testing Deletion: Succeeded
+Testing successor: Succeeded
+Testing predecessor: Succeeded
+Success
+
+Testing RedBlackTree...
+Testing minimum: Succeeded
+Testing maximum: Succeeded
+Testing Search for non-existent object returns null: Succeeded
+Testing Search for existing object: Succeeded
+Testing Deletion: Succeeded
+Testing successor: Succeeded
+Testing predecessor: Succeeded
+Black height = 4
+Testing determining black height: Succeeded
+Success
+
+Testing OrderStatisticTree...
+Testing minimum: Succeeded
+Testing maximum: Succeeded
+Testing Search for non-existent object returns null: Succeeded
+Testing Search for existing object: Succeeded
+Testing Deletion: Succeeded
+Testing successor: Succeeded
+Testing predecessor: Succeeded
+Black height = 4
+Testing determining black height: Succeeded
+          383, black, size(1)
+        394, black, size(4)
+          603, black, size(2)
+            632, red, size(1)
+      743, red, size(12)
+            838, red, size(1)
+          974, black, size(2)
+        990, black, size(7)
+            998, black, size(1)
+          1168, red, size(4)
+              1187, red, size(1)
+            1204, black, size(2)
+    1707, black, size(28)
+          1836, black, size(2)
+            1944, red, size(1)
+        2154, black, size(7)
+            2234, black, size(2)
+              2510, red, size(1)
+          2628, red, size(4)
+            2633, black, size(1)
+      2640, red, size(15)
+            2645, red, size(1)
+          2756, black, size(2)
+        2788, black, size(7)
+              2878, red, size(1)
+            3015, black, size(2)
+          3038, red, size(4)
+            3119, black, size(1)
+  3230, black, size(46)
+            3252, red, size(1)
+          3255, black, size(2)
+        3303, red, size(4)
+          3533, black, size(1)
+      3598, black, size(7)
+          3616, red, size(1)
+        3682, black, size(2)
+    3866, black, size(17)
+            3895, red, size(1)
+          3977, black, size(3)
+            3982, red, size(1)
+        3986, red, size(5)
+          4135, black, size(1)
+      4197, black, size(9)
+          4199, red, size(1)
+        4268, black, size(3)
+          4281, red, size(1)
+4299, black, size(100)
+        4521, black, size(1)
+      4540, black, size(5)
+          4585, red, size(1)
+        4629, black, size(3)
+          4828, red, size(1)
+    4838, black, size(14)
+          4875, black, size(1)
+        4955, red, size(4)
+            5040, red, size(1)
+          5045, black, size(2)
+      5081, black, size(8)
+          5163, red, size(1)
+        5201, black, size(3)
+          5502, red, size(1)
+  5559, black, size(53)
+            5725, black, size(1)
+          5933, black, size(6)
+                6112, red, size(1)
+              6237, black, size(2)
+            6414, red, size(4)
+              6655, black, size(1)
+        6687, red, size(11)
+            6731, black, size(2)
+              6777, red, size(1)
+          7024, black, size(4)
+            7060, black, size(1)
+      7129, black, size(22)
+            7390, red, size(1)
+          7478, black, size(3)
+            7486, red, size(1)
+        7511, black, size(10)
+              7616, red, size(1)
+            7646, black, size(3)
+              7819, red, size(1)
+          8152, red, size(6)
+              8188, red, size(1)
+            8412, black, size(2)
+    8432, red, size(38)
+          8557, black, size(1)
+        8738, black, size(4)
+            8785, red, size(1)
+          8790, black, size(2)
+      8829, black, size(15)
+              8933, red, size(1)
+            9058, black, size(2)
+          9080, red, size(4)
+            9173, black, size(1)
+        9370, black, size(10)
+            9564, black, size(1)
+          9614, red, size(5)
+              9760, red, size(1)
+            9921, black, size(3)
+              9967, red, size(1)
+
+Actual size = 100
+Testing actual size: Succeeded
+Entering testSelect
+i = 39
+expected value = 3736
+value found = 3736
+Leaving testSelect
+Testing selection: Succeeded
+Entering testRank()
+key = 6736
+supposed rank = 62
+found = 6736
+Leaving testRank()
+Testing node rank: Succeeded
+Success
+
+Testing IntervalTree...
+Entering testSearch()
+Found = [15.0, 23.0]
+Leaving testSearch()
+Testing search with good key: Succeeded
+Entering testFailSearch()
+Leaving testFailSearch()
+Testing search with invalid key: Succeeded
+Success
+
